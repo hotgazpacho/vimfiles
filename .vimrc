@@ -2,6 +2,7 @@ call pathogen#incubate()
 call pathogen#helptags()
 syntax on
 filetype plugin indent on
+set number
 "Launches neocomplcache automatically on vim startup.
 let g:neocomplcache_enable_at_startup = 1
 " Use smartcase.
