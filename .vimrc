@@ -1,6 +1,8 @@
 call pathogen#incubate()
 call pathogen#helptags()
 syntax on
+set background=dark
+colorscheme solarized
 filetype plugin indent on
 set number
 "Launches neocomplcache automatically on vim startup.
